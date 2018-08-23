@@ -1,0 +1,193 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-07 12:26:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-07 16:08:19
+*/
+html, body {
+    overflow-x: hidden;
+    background: #f4f6f8;
+    min-height: 100%;
+}
+a {
+    color: #666;
+    outline: none !important;
+}
+a:hover, a:active, a:focus {
+    color: #15c288;
+    text-decoration: none !important;
+}
+#content-container {
+    margin: 30px auto;
+    min-height: 400px;
+}
+.panel {
+    border-radius: 2px;
+}
+.panel-default {
+    border: 0;
+}
+.panel-default {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), inset 0 0 0 rgba(0,0,0,0.05);
+    padding: 0;
+}
+.panel-default > .panel-heading {
+    position: relative;
+    font-size: 16px;
+    padding: 15px 0;
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+.panel-default .panel-heading {
+    padding: 18px 15px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+    font-size: 18px;
+}
+.panel-default .panel-heading>a {
+    font-size: 14px;
+}
+.panel-default > .panel-body {
+    position: relative;
+    padding: 15px 0;
+}
+.panel-default .panel-body {
+    padding: 15px;
+}
+.group-grids .grid {
+    text-align: center;
+}
+.avatar-square-sm, .group-avatar-sm {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.group-grids .grid .title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.media-list .media {
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 15px;
+}
+.avatar-md {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+}
+.media-body {
+    word-break: break-all;
+}
+.thread-list .media-heading {
+    margin-bottom: 10px;
+}
+.thread-list .title {
+    vertical-align: middle;
+}
+.thread-list .metas {
+    font-size: 12px;
+    color: #999;
+}
+.thread-list .metas a {
+    color: #15c288;
+}
+a.link-muted {
+    color: #9AB2CF;
+}
+.thread-list .metas .divider {
+    margin: 0 5px;
+    color: #ccc;
+}
+.link-light {
+    color: #616161 !important;
+    transition: all 0.3s ease;
+}
+.daren-icon-t, .dapinpai-icon-t {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    /* background: url(../img/howzhi/darens-icon.png) no-repeat; */
+    vertical-align: middle;
+    color: orange;
+}
+.label {
+    font-weight: normal;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+.mbl {
+    margin-bottom: 20px !important;
+}
+a, input, button, textarea {
+    outline: none;
+}
+.group-search .form-control {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+.form-control {
+    color: #616161;
+    border-color: #e1e1e1;
+}
+.group-page .input-group-btn {
+    z-index: 2;
+}
+.btn.btn-default {
+    border-color: #15c288;
+    color: #15c288;
+    background: #fff;
+}
+.panel-default > .panel-heading .panel-title {
+    color: #313131;
+}
+.media-group-list {
+    margin-top: -20px;
+}
+.media-group:first-child {
+    margin-top: 20px;
+}
+.media-left {
+    padding-right: 15px;
+}
+.avatar-square-md, .group-avatar-md {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.media-body {
+    word-break: break-all;
+}
+.media-group .title {
+    height: 20px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+.gray-darker {
+    color: #313131 !important;
+}
+.media-group .metas {
+    color: #c1c1c1;
+}
+.media-group .metas span {
+    margin-right: 10px;
+}
+.media-group .metas i {
+    margin-right: 5px;
+    font-size: 14px;
+}
+.link-light:hover {
+    color: #46c37b !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}

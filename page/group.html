@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/frame.css">
+		<link rel="stylesheet" href="../css/group.css">
+		<link rel="stylesheet" href="../css/iconfont.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+			<div class="cur">
+				<div class="navbar-header pull-left">
+					<a href="../index.html" class="navbar-brand">
+						<img class="img-responsive" src="../images/logo.png" alt="好知，howzhi.com">
+					</a>
+					<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<nav class="collapse navbar-collapse pull-left">
+					<ul class="nav navbar-nav topmenu">
+						<li class="visible-xs">
+							<a href=""><i class="fa fa-search mrm iconfont icon-sousuosearch82"></i>搜索</a>
+						</li>
+						<li class="">
+							<a href="">学习中心 </a>
+						</li>
+						<li class="nav-hover">
+							<a href="course.html">课程  <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="shoot.html">摄影课堂</a>
+								</li>
+								<li>
+									<a href="design.html">创意设计</a>
+								</li>
+								<li>
+									<a href="singsong.html">声乐器乐</a>
+								</li>
+								<li>
+									<a href="">运动健身</a>
+								</li>
+								<li>
+									<a href="">IT互联网</a>
+								</li>
+								<li>
+									<a href="">兴趣爱好</a>
+								</li>
+								<li>
+									<a href="">语言学习</a>
+								</li>
+								<li>
+									<a href="">职场技能</a>
+								</li>
+								<li>
+									<a href="">公开课</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="class.html">班级 </a></li>
+						<li><a href="">小组 </a></li>
+					</ul>
+				</nav>
+				<div class="pull-right user-nav clearfix">
+					<ul class="nav nav-login">
+						<li>
+							<a class="color-gray-one" href="login.html">登录</a>
+						</li>
+						<li><a href="login.html">注册</a></li>
+						<li class="hidden-xs hzapp hidden-sm">
+							<a href="">
+								<small class="badge"></small> <i class="iconfont icon-msnui-tel"></i>
+								好知APP
+							</a>
+						</li>
+					</ul>
+					<form action="" class="navbar-form pull-right hz-search hidden-xs">
+						<div class="form-group">
+							<div id="search-left" class="pull-left search-left">
+								<div class="search-type pull-left">
+									<div class="choose">
+										课程
+										<i class="iconfont icon-xiajiantou"></i>
+									</div>
+									<ul class="text-center">
+										<li data-type="course">课程</li>
+										<li data-type="thread">话题</li>
+										<li data-type="teacher">教师</li>
+									</ul>
+								</div>
+								<input class="form-control js-search" placeholder="输入要查找的内容" autocomplete="off">
+							</div>
+							<input name="type" value="course" type="hidden">
+							<button class="button fa fa-search iconfont icon-sousuosearch82" type="submit"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+			</div>
+		</header>
+		<div class="container" id="content-container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="panel panel-default">
+						<div class="panel-heading">热门小组
+							<a href="" class="pull-right">>>更多</a>
+						</div>
+						<div class="panel-body">
+							<div class="row group-grids">
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="好知大本营（教务处）">
+											<img class="group-avatar-sm" src="../images/panel1.png" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="好知大本营（教务处）">好知大本营（教务处）</a>
+									</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="摄影公社">
+											<img class="group-avatar-sm" src="../images/panel2.jpg" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="摄影公社">摄影公社</a>
+									</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="Photoshop照片后期处理学习交流">
+											<img class="group-avatar-sm" src="../images/panel3.jpg" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="Photoshop照片后期处理学习交流">Photoshop照片后期处理学习交流</a>
+									</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="我是从零开始学吉他的">
+											<img class="group-avatar-sm" src="../images/panel4.jpg" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="我是从零开始学吉他的">我是从零开始学吉他的</a>
+									</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="每月养成一个好习惯">
+											<img class="group-avatar-sm" src="../images/panel5.jpg" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="每月养成一个好习惯">每月养成一个好习惯</a>
+									</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="摄影入门学习">
+											<img class="group-avatar-sm" src="../images/panel6.jpg" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="摄影入门学习">摄影入门学习</a>
+									</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="摄影基础交流">
+											<img class="group-avatar-sm" src="../images/panel7.jpg" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="摄影基础交流">摄影基础交流</a>
+									</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 grid">
+									<p>
+										<a href="" title="名校公开课">
+											<img class="group-avatar-sm" src="../images/panel8.jpg" alt="">
+										</a>
+									</p>
+									<p class="title">
+										<a class="link-light" href="" title="名校公开课">名校公开课</a>
+									</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">热门话题</div>
+						<div class="panel-body">
+							<ul class="media-list thread-list">
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">18</span>
+										<div class="media-heading">
+											<a class="title" href="">这11张照片讲述了摄影演变史</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">葉殇夢谽</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<!-- <span class="badge pull-right" style="background-color: #e1e1e1">18</span> -->
+										<div class="media-heading">
+											<a class="title" href="">各大摄影网站收藏</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-10
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">就是兔子</a>
+											2016-01-15
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang2.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">9</span>
+										<div class="media-heading">
+											<a class="title" href="">Flickr公布2015年最受欢迎作品和相机</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">乱流</a>
+											<span class="iconfont icon-i daren-icon-t" title="达人"></span>
+											<span class="divider">•</span>
+											2015-12-08
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">乱流</a>
+											2016-12-09
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">5</span>
+										<div class="media-heading">
+											<a class="title" href="">自然风光摄影之美</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">1</span>
+										<div class="media-heading">
+											<a class="title" href="">自然风光摄影之美</a>
+											<span class="label label-warning">精</span>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang3.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">9</span>
+										<div class="media-heading">
+											<a class="title" href="">Flickr公布2015年最受欢迎作品和相机</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">乱流</a>
+											<span class="iconfont icon-i daren-icon-t" title="达人"></span>
+											<span class="divider">•</span>
+											2015-12-08
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">乱流</a>
+											2016-12-09
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang4.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">1</span>
+										<div class="media-heading">
+											<a class="title" href="">自然风光摄影之美</a>
+											<span class="label label-warning">精</span>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang4.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">18</span>
+										<div class="media-heading">
+											<a class="title" href="">这11张照片讲述了摄影演变史</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">葉殇夢谽</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<!-- <span class="badge pull-right" style="background-color: #e1e1e1">18</span> -->
+										<div class="media-heading">
+											<a class="title" href="">各大摄影网站收藏</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-10
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">就是兔子</a>
+											2016-01-15
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang2.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">9</span>
+										<div class="media-heading">
+											<a class="title" href="">Flickr公布2015年最受欢迎作品和相机</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">乱流</a>
+											<span class="iconfont icon-i daren-icon-t" title="达人"></span>
+											<span class="divider">•</span>
+											2015-12-08
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">乱流</a>
+											2016-12-09
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">5</span>
+										<div class="media-heading">
+											<a class="title" href="">自然风光摄影之美</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">1</span>
+										<div class="media-heading">
+											<a class="title" href="">自然风光摄影之美</a>
+											<span class="label label-warning">精</span>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang1.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">1</span>
+										<div class="media-heading">
+											<a class="title" href="">自然风光摄影之美</a>
+											<span class="label label-warning">精</span>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											05-19
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang3.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">9</span>
+										<div class="media-heading">
+											<a class="title" href="">Flickr公布2015年最受欢迎作品和相机</a>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">乱流</a>
+											<span class="iconfont icon-i daren-icon-t" title="达人"></span>
+											<span class="divider">•</span>
+											2015-12-08
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">乱流</a>
+											2016-12-09
+										</div>
+									</div>
+								</li>
+								<li class="media">
+									<a class="pull-left js-user-card" href="">
+										<img class="avatar-md" src="../images/touxiang4.jpg" alt="">
+									</a>
+									<div class="media-body">
+										<span class="badge pull-right" style="background-color: #e1e1e1">1</span>
+										<div class="media-heading">
+											<a class="title" href="">自然风光摄影之美</a>
+											<span class="label label-warning">精</span>
+										</div>
+										<div class="metas">
+											<a class="link-muted" href="" title="摄影公社">摄影公社</a>
+											<span class="divider">•</span>
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											<span class="divider">•</span>
+											201-12-18
+											<span class="divider">•</span>
+											最后回复
+											<a class="link-light link-muted" href="">曹佳佳的熊猫眼</a>
+											05-19
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<form class="mbl" action="" method="get">
+						<div class="input-group group-search">
+							<input type="hidden" name="_crsf_token">
+							<input type="text" class="form-control" placeholder="小组搜索" name="keyWord">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="submit">
+									<span class="glyphicon glyphicon-search iconfont icon-sousuosearch82"></span>
+								</button>
+							</span>
+						</div>
+					</form>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">新晋小组</h3>
+						</div>
+						<div class="panel-body">
+							<div class="media-group-list">
+								<div class="media media-group">
+									<div class="media-left">
+										<a href="" title="音乐爱好者">
+											<img src="../images/music.jpg" alt="音乐爱好者" class="avatar-square-md">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="title">
+											<a class="gray-darker" href="" title="音乐爱好者">音乐爱好者</a>
+										</div>
+										<div class="metas">
+											<span>
+												<i class="iconfont icon-personstalker"></i>
+												88
+											</span>
+											<span>
+												<i class="iconfont icon-xinxi"></i>1433
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="media media-group">
+									<div class="media-left">
+										<a href="" title="科学学英语">
+											<img src="../images/science.jpg" alt="科学学英语" class="avatar-square-md">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="title">
+											<a class="gray-darker" href="" title="科学学英语">科学学英语</a>
+										</div>
+										<div class="metas">
+											<span>
+												<i class="iconfont icon-personstalker"></i>
+												171
+											</span>
+											<span>
+												<i class="iconfont icon-xinxi"></i>1362
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="media media-group">
+									<div class="media-left">
+										<a href="" title="三维动画">
+											<img src="../images/sanwei.jpg" alt="三维动画" class="avatar-square-md">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="title">
+											<a class="gray-darker" href="" title="三维动画">三维动画</a>
+										</div>
+										<div class="metas">
+											<span>
+												<i class="iconfont icon-personstalker"></i>
+												80
+											</span>
+											<span>
+												<i class="iconfont icon-xinxi"></i>1341
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="fixed-bar">
+			<li class="hz-app">
+				<a href="" class="active btn btn-primary">APP
+				</a>
+			</li>
+			<li class="hz-weixin">
+				<a class="fixed-bar-icon" href="">
+					<i class="iconfont icon-ai-code"></i>
+				</a>
+				<div class="weixin">
+					<p class="text-center mvs text-primary hidden-xs hidden-sm">扫一扫 关注好知微信</p>
+					<img class="img-responsive" src="../images/wenxin-qrcode.jpg" alt="">
+				</div>			
+			</li>
+			<li class="hz-feedback">
+				<a href="" class="fixed-bar-icon">
+					<i class="iconfont icon-wenhao"></i>
+				</a>
+				<a href="" class="fixed-bar-text">
+					问题反馈
+				</a>
+			</li>
+			<li class="go-top gotop">
+				<a href="" class="fixed-bar-icon">
+					<i class="iconfont icon-jiantou-copy-copy-copy"></i>
+				</a>
+				<a href="javascript:;" class="fixed-bar-text">
+					回到顶部
+				</a>
+			</li>
+		</ul>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="">
+							<img src="../images/foot-logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 about">
+						<span>
+							<a href="">关于我们</a>
+						</span>
+						|
+						<span>
+							<a href="" target="_blank">加入我们</a>
+						</span>
+						|
+						<span>
+							<a href="" target="_blank">合作申请</a>
+						</span>
+						|
+						<span>
+							<a href="">意见反馈</a>
+						</span>
+						|
+						<span>
+							<a href="">用户协议</a>
+						</span>
+						<br>				
+						<a class="text-sm con prm" href="" target="_blank">浙ICP备13006852号-3</a>
+						<a class="text-sm con plm" href="" target="_blank">浙B2-20160872</a>
+					</div>
+					<div class="row">
+						<div class="row-con">
+							<a class="row-tip" href="" >
+							<img class="row-img" src="../images/filing.png" alt="">
+							<p class="row-p">浙公网安备 33010802003863号</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						关注我们：
+						<a href=""> <i class="iconfont icon-weibo"></i>
+						</a>
+						<a class="icon-sns"> <i class="iconfont icon-unie655"></i>
+							<div class="sns-popover">
+							<img src="../images/wenxin-qrcode.jpg" alt="" width="194px">
+							</div>
+						</a>
+						<a href="">
+							<i class="iconfont icon-qq"></i>
+						</a>
+						<a href="">
+							<i class="iconfont icon-douban1"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="friendlinks">
+			<div class="container">
+				<div class="content">
+					<font>友情链接:</font>
+					<a href="">EduSoho开源网络课堂</a>
+					<span>|</span>
+					<a href="">气球鱼学院</a>
+					<span>|</span>
+					<a href="">360安全网址导航</a>
+					<span>|</span>
+					<a href="">hao123</a>
+					<span>|</span>
+					<a href="">绿色网</a>
+					<span>|</span>	
+					<a href="">站长之家</a>
+					<span>|</span>
+					<a href="">新客网</a>
+					<span>|</span>
+					<a href="">暖石网</a>
+					<span>|</span>
+					<a href="">麦子学院</a>
+					<span>|</span>
+					<a href="">博为峰网校 </a>
+				</div>
+				Powered by
+				<a href="">EduSoho v7.5.15</a>
+				©2014-2018
+				<a class="mlm" href="">好知网</a>
+			</div>
+		</div>
+		<script src='../js/jquery.min.js'></script>
+		<script src='../js/bootstrap.min.js'></script>
+		<script>
+		$(window).scroll(function(event) {
+			if($(window).scrollTop()<200){
+					$('.go-top').addClass('gotop');
+				}else{
+					$('.go-top').removeClass('gotop')
+				}
+			});
+		$('.go-top').click(function(event) {
+				$('html,body').stop().animate({'scrollTop':$('html').offset().top}, 1000)
+			});
+		</script>
+	</body>
+</html>

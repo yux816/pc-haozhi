@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/frame.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="cur">
+			<div class="navbar-header pull-left">
+				<a href="" class="navbar-brand">
+					<img class="img-responsive" src="images/logo.png" alt="好知，howzhi.com">
+				</a>
+				<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<nav class="collapse navbar-collapse pull-left">
+				<ul class="nav navbar-nav topmenu">
+					<li class="visible-xs">
+						<a href=""><i class="fa fa-search mrm iconfont icon-sousuosearch82"></i>搜索</a>
+					</li>
+					<li class="">
+						<a href="">学习中心 </a>
+					</li>
+					<li class="nav-hover">
+						<a href="page/course.html">课程  <b class="caret"></b></a>
+						<ul class="dropdown-menu" role="menu">
+							<li>
+								<a href="page/shoot.html">摄影课堂</a>
+							</li>
+							<li>
+								<a href="page/design.html">创意设计</a>
+							</li>
+							<li>
+								<a href="page/singsong.html">声乐器乐</a>
+							</li>
+							<li>
+								<a href="">运动健身</a>
+							</li>
+							<li>
+								<a href="">IT互联网</a>
+							</li>
+							<li>
+								<a href="">兴趣爱好</a>
+							</li>
+							<li>
+								<a href="">语言学习</a>
+							</li>
+							<li>
+								<a href="">职场技能</a>
+							</li>
+							<li>
+								<a href="">公开课</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="page/class.html">班级 </a></li>
+					<li><a href="page/group.html">小组 </a></li>
+				</ul>
+			</nav>
+			<div class="pull-right user-nav clearfix">
+				<ul class="nav nav-login">
+					<li>
+						<a class="color-gray-one" href="page/login.html">登录</a>
+					</li>
+					<li><a href="page/login.html">注册</a></li>
+					<li class="hidden-xs hzapp hidden-sm">
+						<a href="">
+							<small class="badge"></small> <i class="iconfont icon-msnui-tel"></i>
+							好知APP
+						</a>
+					</li>
+				</ul>
+				<form action="" class="navbar-form pull-right hz-search hidden-xs">
+					<div class="form-group">
+						<div id="search-left" class="pull-left search-left">
+							<div class="search-type pull-left">
+								<div class="choose">
+									课程
+									<i class="iconfont icon-xiajiantou"></i>
+								</div>
+								<ul class="text-center">
+									<li data-type="course">课程</li>
+									<li data-type="thread">话题</li>
+									<li data-type="teacher">教师</li>
+								</ul>
+							</div>
+							<input class="form-control js-search" placeholder="输入要查找的内容" autocomplete="off">
+						</div>
+						<input name="type" value="course" type="hidden">
+						<button class="button fa fa-search iconfont icon-sousuosearch82" type="submit"></button>
+					</div>
+				</form>
+			</div>
+		</div>
+		</div>
+	</header>
+	<section class="hz-poster">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->	
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->	
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="images/01.jpg" alt="...">
+				</div>
+				<div class="item">
+					<img src="images/02.jpg" alt="...">
+				</div>
+				<div class="item">
+					<img src="images/04.jpg" alt="...">
+				</div>
+			</div>
+						<!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+
+			<div class="hz-site hz-themes hidden-xs">
+				<div class="container">
+					<div class="site-data act">
+						<div class="data">
+							<p class="hz-line-left">现在</p>
+							<div class="number"> <strong>4118</strong>
+								<p class="text">
+									人在好知
+									<br>学习课程</p>
+							</div>
+						</div>
+						<a href="/courses" class="text-center">立即学习</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="live-open-course index-sec">
+		<div class="container zsh">
+			<h2>
+		      <strong>热门课程</strong>
+		    </h2>
+		    <div id="full" class="carousel slide" data-ride="carousel">
+		  	<div class="carousel-inner">
+		  		<ul class="row item active">
+		  			<li class="col-xs-6 swiper-slide">
+		  				<img src="images/block_1.jpg" class="img-responsive">
+		  				<div class="show">
+	                        <div class="live-title"><h3 class="text-center">sai基础教程</h3></div>                  
+	                        <p class="text-center clearfix">
+                                <span>加入学员:41600人</span>
+                            </p>      
+                      	</div>
+                      	<div class="layer">
+                      		<p class="text-center">
+	                          <img class="avatar-sm" src="images/zsh-1.jpg">
+	                        </p>
+	                        <p class="text-center">
+	                          <strong>木桃
+	                          </strong>
+	                        </p>
+	                        <div class="info">
+	                        	<p>现在参加，<strong>41600</strong> 人已经加入课程</p>
+	                        	<p class="avatar">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course1.jpg" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<span>...</span>
+	                        	</p>
+	                        </div>
+                      	</div>
+		  			</li>
+		  			<li class="col-xs-6 swiper-slide">
+		  				<img src="images/block_5.jpg" class="img-responsive">
+		  				<div class="show">
+	                        <div class="live-title"><h3 class="text-center">sai基础教程</h3></div>                  
+	                        <p class="text-center clearfix">
+                                <span>加入学员:41600人</span>
+                            </p>      
+                      	</div>
+                      	<div class="layer">
+                      		<p class="text-center">
+	                          <img class="avatar-sm" src="images/zsh-1.jpg">
+	                        </p>
+	                        <p class="text-center">
+	                          <strong>木桃
+	                          </strong>
+	                        </p>
+	                        <div class="info">
+	                        	<p>现在参加，<strong>41600</strong> 人已经加入课程</p>
+	                        	<p class="avatar">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course1.jpg" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<span>...</span>
+	                        	</p>
+	                        </div>
+                      	</div>
+		  			</li>
+		  		</ul>
+		  		<ul class="row item">
+		  			<li class="col-xs-6 swiper-slide">
+		  				<img src="images/block_3.jpg" class="img-responsive">
+		  				<div class="show">
+	                        <div class="live-title"><h3 class="text-center">sai基础教程</h3></div>                  
+	                        <p class="text-center clearfix">
+                                <span>加入学员:41600人</span>
+                            </p>      
+                      	</div>
+                      	<div class="layer">
+                      		<p class="text-center">
+	                          <img class="avatar-sm" src="images/zsh-1.jpg">
+	                        </p>
+	                        <p class="text-center">
+	                          <strong>木桃
+	                          </strong>
+	                        </p>
+	                        <div class="info">
+	                        	<p>现在参加，<strong>41600</strong> 人已经加入课程</p>
+	                        	<p class="avatar">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course1.jpg" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<span>...</span>
+	                        	</p>
+	                        </div>
+                      	</div>
+		  			</li>
+		  			<li class="col-xs-6 swiper-slide">
+		  				<img src="images/block_4.jpg" class="img-responsive">
+		  				<div class="show">
+	                        <div class="live-title"><h3 class="text-center">sai基础教程</h3></div>                  
+	                        <p class="text-center clearfix">
+                                <span>加入学员:41600人</span>
+                            </p>      
+                      	</div>
+                      	<div class="layer">
+                      		<p class="text-center">
+	                          <img class="avatar-sm" src="images/zsh-1.jpg">
+	                        </p>
+	                        <p class="text-center">
+	                          <strong>木桃
+	                          </strong>
+	                        </p>
+	                        <div class="info">
+	                        	<p>现在参加，<strong>41600</strong> 人已经加入课程</p>
+	                        	<p class="avatar">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course1.jpg" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<img src="images/course.png" alt="">
+	                        		<span>...</span>
+	                        	</p>
+	                        </div>
+                      	</div>
+		  			</li>
+		  		</ul>
+		  	</div>
+
+			<a class="carousel-control left" href="#full" data-slide="prev">Previous</a>
+			<a class="carousel-control right" href="#full" data-slide="next">Next</a>
+		</div>
+		    <p class="sec-more mtl mbs">
+		    	<a class="btn" href="">
+		    		更多>
+		    	</a>
+		    </p>
+		</div>
+	</div>
+	<div class="hzindex-course index-sec">
+		<div class="container">
+			<h2>
+				<strong>精品课程</strong>
+			</h2>
+			<nav id="course-recommed">
+				<ul class="clearfix">
+					<li class="btn  btn-primary ">精品推荐</li>
+					<li class="btn ">特价好课</li>
+					<li class="btn ">摄影课堂</li>
+					<li class="btn ">创意设计</li>
+					<li class="btn ">兴趣爱好</li>
+					<li class="btn ">声乐器乐</li>
+					<li class="btn ">运动健身</li>
+					<li class="btn ">IT互联网</li>
+				</ul>
+			</nav>
+			<div class="index-course-list course">
+				<div class="row clearfix act">
+					<div class="col-sm-3 col-xs-6">
+						<div class="course-item speical">
+							<div class="course-img">
+								<a href="">
+									<img src="images/course-img01.jpg">
+								</a>
+							</div>
+							<div class="course-info">
+								<div class="title">
+									<a href="">零基础，30分钟学会制作专业级H5</a>
+								</div>
+								<div class="teacher text-o-show">
+									<a class=" js-user-card" href="">
+										<img class="avatar-ss " src="images/course-img01-1.jpg">Mugeda木疙瘩</a>
+									<div class="price free pull-right">
+										<span>免费</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 ">
+						<div class="course-item">
+							<div class="course-img course-images">
+								<a href="">
+									<img src="images/course-img02.jpg">
+								</a>
+							</div>
+							<div class="course-info">
+								<div class="title">
+									<a href="">教你一分钟学会看懂一只股票</a>
+								</div>
+								<div class="teacher text-o-show">
+									<a class=" js-user-card" href="">
+										<img class="avatar-ss " src="images/course-img02-1.png">数学家诊股
+									</a>
+									<div class="price free pull-right">
+										<span>免费</span>
+									</div>
+								</div>
+								<div class="message">
+									<div class="message-head">
+										<div class="head-pic">
+											<img class="img-circle" src="images/course-img02-1.png"/>		
+										</div>
+										<div class="person">
+											<h3 class="person-name">xxx</h3>
+											<p class="person-level">讲师</p>
+										</div>
+										<div class="person-btn">
+											<input type="button" name="" id="" value="关注" />	
+											<input type="button" name="" id="" value="私信" />	
+										</div>
+									</div>
+									<h5>xxxxxxxxxxxxxx</h5>
+									<div class="person-list">
+										<ul>
+											<li>
+												<a href="" class="font-hover">
+													<p>在教</p>
+													138
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>在学</p>
+													84
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>关注</p>
+													337
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>粉丝</p>
+													12588
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="course-item">
+							<div class="course-img course-images">
+								<a href="">
+									<img src="images/course-img03.jpg">
+								</a>
+							</div>
+							<div class="course-info">
+								<div class="title">
+									<a href="">【齐论教育】淘宝店铺后期修片技巧玩爆高点击</a>
+								</div>
+								<div class="teacher text-o-show">
+									<a class=" js-user-card" href="">
+										<img class="avatar-ss " src="images/course-img03-1.jpg">齐论教育
+									</a>
+									<div class="price pull-right">
+										<span>￥19.90</span>
+									</div>
+								</div>
+								<div class="message">
+									<div class="message-head">
+										<div class="head-pic">
+											<img class="img-circle" src="images/course-img03-1.jpg"/>		
+										</div>
+										<div class="person">
+											<h3 class="person-name">xxx</h3>
+											<p class="person-level">讲师</p>
+										</div>
+										<div class="person-btn">
+											<input type="button" name="" id="" value="关注" />	
+											<input type="button" name="" id="" value="私信" />	
+										</div>
+									</div>
+									<h5>xxxxxxxxxxxxxx</h5>
+									<div class="person-list">
+										<ul>
+											<li>
+												<a href="" class="font-hover">
+													<p>在教</p>
+													138
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>在学</p>
+													84
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>关注</p>
+													337
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>粉丝</p>
+													12588
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 ">
+						<div class="course-item">
+							<div class="course-img course-images">
+								<a href="">
+									<img src="images/course-img02.jpg">
+								</a>
+							</div>
+							<div class="course-info">
+								<div class="title">
+									<a href="">教你一分钟学会看懂一只股票</a>
+								</div>
+								<div class="teacher text-o-show">
+									<a class=" js-user-card" href="">
+										<img class="avatar-ss " src="images/course-img02-1.png">数学家诊股
+									</a>
+									<div class="price free pull-right">
+										<span>免费</span>
+									</div>
+								</div>
+								<div class="message">
+									<div class="message-head">
+										<div class="head-pic">
+											<img class="img-circle" src="images/course-img02-1.png"/>		
+										</div>
+										<div class="person">
+											<h3 class="person-name">xxx</h3>
+											<p class="person-level">讲师</p>
+										</div>
+										<div class="person-btn">
+											<input type="button" name="" id="" value="关注" />	
+											<input type="button" name="" id="" value="私信" />	
+										</div>
+									</div>
+									<h5>xxxxxxxxxxxxxx</h5>
+									<div class="person-list">
+										<ul>
+											<li>
+												<a href="" class="font-hover">
+													<p>在教</p>
+													138
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>在学</p>
+													84
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>关注</p>
+													337
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>粉丝</p>
+													12588
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="course-item">
+							<div class="course-img course-images">
+								<a href="">
+									<img src="images/course-img03.jpg">
+								</a>
+							</div>
+							<div class="course-info">
+								<div class="title">
+									<a href="">【齐论教育】淘宝店铺后期修片技巧玩爆高点击</a>
+								</div>
+								<div class="teacher text-o-show">
+									<a class=" js-user-card" href="">
+										<img class="avatar-ss " src="images/course-img03-1.jpg">齐论教育
+									</a>
+									<div class="price pull-right">
+										<span>￥19.90</span>
+									</div>
+								</div>
+								<div class="message">
+									<div class="message-head">
+										<div class="head-pic">
+											<img class="img-circle" src="images/course-img02-1.png"/>		
+										</div>
+										<div class="person">
+											<h3 class="person-name">xxx</h3>
+											<p class="person-level">讲师</p>
+										</div>
+										<div class="person-btn">
+											<input type="button" name="" id="" value="关注" />	
+											<input type="button" name="" id="" value="私信" />	
+										</div>
+									</div>
+									<h5>xxxxxxxxxxxxxx</h5>
+									<div class="person-list">
+										<ul>
+											<li>
+												<a href="" class="font-hover">
+													<p>在教</p>
+													138
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>在学</p>
+													84
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>关注</p>
+													337
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>粉丝</p>
+													12588
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 ">
+						<div class="course-item">
+							<div class="course-img course-images">
+								<a href="">
+									<img src="images/course-img02.jpg">
+								</a>
+							</div>
+							<div class="course-info">
+								<div class="title">
+									<a href="">教你一分钟学会看懂一只股票</a>
+								</div>
+								<div class="teacher text-o-show">
+									<a class=" js-user-card" href="">
+										<img class="avatar-ss " src="images/course-img02-1.png">数学家诊股
+									</a>
+									<div class="price free pull-right">
+										<span>免费</span>
+									</div>
+								</div>
+								<div class="message">
+									<div class="message-head">
+										<div class="head-pic">
+											<img class="img-circle" src="images/course-img02-1.png"/>		
+										</div>
+										<div class="person">
+											<h3 class="person-name">xxx</h3>
+											<p class="person-level">讲师</p>
+										</div>
+										<div class="person-btn">
+											<input type="button" name="" id="" value="关注" />	
+											<input type="button" name="" id="" value="私信" />	
+										</div>
+									</div>
+									<h5>xxxxxxxxxxxxxx</h5>
+									<div class="person-list">
+										<ul>
+											<li>
+												<a href="" class="font-hover">
+													<p>在教</p>
+													138
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>在学</p>
+													84
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>关注</p>
+													337
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>粉丝</p>
+													12588
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="course-item">
+							<div class="course-img course-images">
+								<a href="">
+									<img src="images/course-img03.jpg">
+								</a>
+							</div>
+							<div class="course-info">
+								<div class="title">
+									<a href="">【齐论教育】淘宝店铺后期修片技巧玩爆高点击</a>
+								</div>
+								<div class="teacher text-o-show">
+									<a class=" js-user-card" href="">
+										<img class="avatar-ss " src="images/course-img03-1.jpg">齐论教育
+									</a>
+									<div class="price pull-right">
+										<span>￥19.90</span>
+									</div>
+								</div>
+								<div class="message">
+									<div class="message-head">
+										<div class="head-pic">
+											<img class="img-circle" src="images/course-img02-1.png"/>		
+										</div>
+										<div class="person">
+											<h3 class="person-name">xxx</h3>
+											<p class="person-level">讲师</p>
+										</div>
+										<div class="person-btn">
+											<input type="button" name="" id="" value="关注" />	
+											<input type="button" name="" id="" value="私信" />	
+										</div>
+									</div>
+									<h5>xxxxxxxxxxxxxx</h5>
+									<div class="person-list">
+										<ul>
+											<li>
+												<a href="" class="font-hover">
+													<p>在教</p>
+													138
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>在学</p>
+													84
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>关注</p>
+													337
+												</a>
+											</li>
+											<li>
+												<a href="" class="font-hover">
+													<p>粉丝</p>
+													12588
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hzindex-classroom index-sec">
+		<div class="container">
+			<h2> <strong>班级推荐</strong>
+			</h2>
+			<ul class="classroom-list row">
+				<li class="col-md-3 col-xs-6">
+					<div class="pic">
+						<a href="">
+							<img src="images/classroom-01.jpg">		
+							<div class="layer">
+								<ul class="">
+									<li> <i class="iconfont icon-wo"></i>
+										<span>255</span>
+										人已加入学习
+									</li>
+									<li> <i class="iconfont icon-kecheng"></i>
+										<span>32</span>
+										课时
+									</li>
+									<li>
+										<i class="iconfont icon-htmal5icon10"></i>
+										<span>6</span>
+										次作业
+									</li>
+									<li>
+										<i class="iconfont icon-wenhao"></i>
+										<span>24</span>
+										小时答疑
+									</li>
+								</ul>
+							</div>
+							<div class="classroom-tag hz-triangle">
+								<span>班级</span>
+							</div>
+						</a>
+					</div>
+					<div class="info">
+						<h3>零基础摄影入门班</h3>
+						<p>好知摄影入门班，最有趣的单反摄影入门教程！零基础学习摄影入门技巧，专业摄影师为你...</p>
+						<a class="btn btn-primary" href="">立即加入</a>
+					</div>
+				</li>
+				<li class="col-md-3 col-xs-6">
+					<div class="pic">
+						<a href="">
+							<img src="images/classroom-01.jpg">		
+							<div class="layer">
+								<ul class="">
+									<li> <i class="iconfont icon-wo"></i>
+										<span>255</span>
+										人已加入学习
+									</li>
+									<li> <i class="iconfont icon-kecheng"></i>
+										<span>32</span>
+										课时
+									</li>
+									<li>
+										<i class="iconfont icon-htmal5icon10"></i>
+										<span>6</span>
+										次作业
+									</li>
+									<li>
+										<i class="iconfont icon-wenhao"></i>
+										<span>24</span>
+										小时答疑
+									</li>
+								</ul>
+							</div>
+							<div class="classroom-tag hz-triangle">
+								<span>班级</span>
+							</div>
+						</a>
+					</div>
+					<div class="info">
+						<h3>零基础摄影入门班</h3>
+						<p>好知摄影入门班，最有趣的单反摄影入门教程！零基础学习摄影入门技巧，专业摄影师为你...</p>
+						<a class="btn btn-primary" href="">立即加入</a>
+					</div>
+				</li>
+				<li class="col-md-3 col-xs-6">
+					<div class="pic">
+						<a href="">
+							<img src="images/classroom-01.jpg">		
+							<div class="layer">
+								<ul class="">
+									<li> <i class="iconfont icon-wo"></i>
+										<span>255</span>
+										人已加入学习
+									</li>
+									<li> <i class="iconfont icon-kecheng"></i>
+										<span>32</span>
+										课时
+									</li>
+									<li>
+										<i class="iconfont icon-htmal5icon10"></i>
+										<span>6</span>
+										次作业
+									</li>
+									<li>
+										<i class="iconfont icon-wenhao"></i>
+										<span>24</span>
+										小时答疑
+									</li>
+								</ul>
+							</div>
+							<div class="classroom-tag hz-triangle">
+								<span>班级</span>
+							</div>
+						</a>
+					</div>
+					<div class="info">
+						<h3>零基础摄影入门班</h3>
+						<p>好知摄影入门班，最有趣的单反摄影入门教程！零基础学习摄影入门技巧，专业摄影师为你...</p>
+						<a class="btn btn-primary" href="">立即加入</a>
+					</div>
+				</li>
+				<li class="col-md-3 col-xs-6">
+					<div class="pic">
+						<a href="">
+							<img src="images/classroom-01.jpg">		
+							<div class="layer">
+								<ul class="">
+									<li> <i class="iconfont icon-wo"></i>
+										<span>255</span>
+										人已加入学习
+									</li>
+									<li> <i class="iconfont icon-kecheng"></i>
+										<span>32</span>
+										课时
+									</li>
+									<li>
+										<i class="iconfont icon-htmal5icon10"></i>
+										<span>6</span>
+										次作业
+									</li>
+									<li>
+										<i class="iconfont icon-wenhao"></i>
+										<span>24</span>
+										小时答疑
+									</li>
+								</ul>
+							</div>
+							<div class="classroom-tag hz-triangle">
+								<span>班级</span>
+							</div>
+						</a>
+					</div>
+					<div class="info">
+						<h3>零基础摄影入门班</h3>
+						<p>好知摄影入门班，最有趣的单反摄影入门教程！零基础学习摄影入门技巧，专业摄影师为你...</p>
+						<a class="btn btn-primary" href="">立即加入</a>
+					</div>
+				</li>
+			</ul>
+			<div class="dynamic">
+				<h4 class="hz-line-left">
+					班级动态
+				</h4>
+				<div class="ad">
+					<ul>
+						<li><img src="images/classroom-01.png"/></li>
+						<li><img src="images/classroom-02.png"/></li>
+						<li><img src="images/classroom-03.png"/></li>
+						<li><img src="images/classroom-01.png"/></li>
+					</ul>
+				</div>
+			</div>
+			<p class="sec-more"><a class="btn" href="/classroom/poster/list">更多></a></p>
+		</div>
+	</div>
+	<div class="hz-thread index-sec">
+		<div class="container zsh">
+			<h2>
+				<strong>话题精选</strong>
+			</h2>
+			<div id="single" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+		  		<ul class="row item active">
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_1.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_2.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_3.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_7.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  		</ul>
+		  		<ul class="row item">
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_4.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_5.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_6.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-sm-6 col-md-3 col-xs-6">
+		  				<a href="" class="tip"><img src="images/block_picture_8.jpg" class="img-responsive"></a>
+		  				<div class="bottom">
+		  					<h4 class="text-center">【招聘】售前客服（2名）</h4>
+		  					<p class="clearfix hidden-xs">
+		  						<span class="text-o-show"> <i class="iconfont icon-wo mrs"></i>
+		  							知了
+		  						</span>
+		  						<span class="text-right"> <i class="iconfont icon-shijian mrs"></i>
+		  							2018-03-15
+		  						</span>
+		  					</p>
+		  				</div>
+		  			</li>
+		  		</ul>
+		  	</div>
+			<a class="carousel-control left" href="#single" data-slide="prev">Previous</a>
+			<a class="carousel-control right" href="#single" data-slide="next">Next</a>
+		</div>
+			<p class="sec-more"><a class="btn" href="/classroom/poster/list">更多></a></p>
+		</div>
+	</div>
+	<div class="hz-hottag index-sec">
+		<div class="container">
+			<h2>
+				<strong>热门标签</strong>
+			</h2>
+			<div class="hottag-list clearfix">
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag1.jpg" alt=""></p>
+						<p>
+							Lightroom
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag2.jpg" alt=""></p>
+						<p>
+							Photoshop
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag3.jpg" alt=""></p>
+						<p>
+							After Effect
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag4.jpg" alt=""></p>
+						<p>
+							吉他
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag8.jpg" alt=""></p>
+						<p>
+							人像摄影
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag9.jpg" alt=""></p>
+						<p>
+							产品摄影
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+								<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag7.jpg" alt=""></p>
+						<p>
+							Lightroom
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag7.jpg" alt=""></p>
+						<p>
+							Lightroom
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag7.jpg" alt=""></p>
+						<p>
+							Lightroom
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag7.jpg" alt=""></p>
+						<p>
+							Lightroom
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag7.jpg" alt=""></p>
+						<p>
+							Lightroom
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">
+					<a href="">
+						<p>
+							<img src="images/tag7.jpg" alt=""></p>
+						<p>
+							Lightroom
+							<br>				
+							<span>12门课程</span>
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hz-daren index-sec">
+		<div class="container zsh">
+			<h2>
+				<strong>
+					认证达人
+				</strong>
+			</h2>
+			<div id="single1" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+		  		<ul class="row item sh active daren-list">
+		  			<li class="col-xs-4">
+		  				<div class="avater"><img src="images/block_picture1.png" class="img-responsive"></div>
+		  				<div class="main">
+		  					<p class="text-o-show">
+		  						<a class="active" href="">星火英语</a>
+		  					</p>
+		  					<p class="icon">
+		  						<span> <i class="iconfont icon-i"></i>
+		  							英语培训
+		  						</span>
+		  					</p>
+		  					<p class="text-o-show">知名英语教育机构</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-xs-4">
+		  				<div class="avater"><img src="images/block_picture2.png" class="img-responsive"></div>
+		  				<div class="main">
+		  					<p class="text-o-show">
+		  						<a class="active" href="">星火英语</a>
+		  					</p>
+		  					<p class="icon">
+		  						<span> <i class="iconfont icon-i"></i>
+		  							英语培训
+		  						</span>
+		  					</p>
+		  					<p class="text-o-show">知名英语教育机构</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-xs-4">
+		  				<div class="avater"><img src="images/block_picture3.jpg" class="img-responsive"></div>
+		  				<div class="main">
+		  					<p class="text-o-show">
+		  						<a class="active" href="">星火英语</a>
+		  					</p>
+		  					<p class="icon">
+		  						<span> <i class="iconfont icon-i"></i>
+		  							英语培训
+		  						</span>
+		  					</p>
+		  					<p class="text-o-show">知名英语教育机构</p>
+		  				</div>
+		  			</li>
+		  		</ul>
+		  		<ul class="row item sh daren-list">
+		  			<li class="col-xs-4">
+		  				<div class="avater"><img src="images/block_picture4.jpg" class="img-responsive"></div>
+		  				<div class="main">
+		  					<p class="text-o-show">
+		  						<a class="active" href="">星火英语</a>
+		  					</p>
+		  					<p class="icon">
+		  						<span> <i class="iconfont icon-i"></i>
+		  							英语培训
+		  						</span>
+		  					</p>
+		  					<p class="text-o-show">知名英语教育机构</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-xs-4">
+		  				<div class="avater"><img src="images/block_picture5.jpg" class="img-responsive"></div>
+		  				<div class="main">
+		  					<p class="text-o-show">
+		  						<a class="active" href="">星火英语</a>
+		  					</p>
+		  					<p class="icon">
+		  						<span> <i class="iconfont icon-i"></i>
+		  							英语培训
+		  						</span>
+		  					</p>
+		  					<p class="text-o-show">知名英语教育机构</p>
+		  				</div>
+		  			</li>
+		  			<li class="col-xs-4">
+		  				<div class="avater"><img src="images/block_picture6.jpg" class="img-responsive"></div>
+		  				<div class="main">
+		  					<p class="text-o-show">
+		  						<a class="active" href="">星火英语</a>
+		  					</p>
+		  					<p class="icon">
+		  						<span> <i class="iconfont icon-i"></i>
+		  							英语培训
+		  						</span>
+		  					</p>
+		  					<p class="text-o-show">知名英语教育机构</p>
+		  				</div>
+		  			</li>
+		  		</ul>
+		  	</div>
+			<a class="carousel-control left" href="#single1" data-slide="prev">Previous</a>
+			<a class="carousel-control right" href="#single1" data-slide="next">Next</a>
+		</div>
+			<p class="sec-more">
+				<a href="" class="btn">申请入驻 ></a>
+				<a href="" class="btn mlm">查看更多 ></a>
+			</p>
+		</div>
+	</div>
+	<section class="hz-index-bottom act">
+		<div class="container text-center">
+			<ul class="row">
+				<li class="col-xs-4 li1">
+					<a href="">
+						<div class="pic">
+							<img src="images/bottom-item1.png" alt="">
+						</div>
+						<p>发现数千门课程</p>
+					</a>
+				</li>
+				<li class="col-xs-4 li2">
+					<a href="">
+						<div class="pic">
+							<img src="images/bottom-item2.png" alt="">
+						</div>
+						<p>专业学习计划指引</p>
+					</a>
+				</li>
+				<li class="col-xs-4 li3">
+					<a href="">
+						<div class="pic">
+							<img src="images/bottom-item3.png" alt="">
+						</div>
+						<p>与同学一起讨论</p>
+					</a>
+				</li>
+			</ul>
+			<div class="more">
+				<a href="">
+					更有趣有效的学习
+					<i class="iconfont icon-youjiantou1"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+	<ul class="fixed-bar">
+		<li class="hz-app"><a href="" class="active btn btn-primary">APP</a></li>
+		<li class="hz-weixin">
+			<a class="fixed-bar-icon" href="">
+				<i class="iconfont icon-ai-code"></i>
+			</a>
+			<div class="weixin">
+				<p class="text-center mvs text-primary hidden-xs hidden-sm">扫一扫 关注好知微信</p>
+				<img class="img-responsive" src="images/wenxin-qrcode.jpg" alt="">
+			</div>			
+		</li>
+		<li class="hz-feedback">
+			<a href="" class="fixed-bar-icon">
+				<i class="iconfont icon-wenhao"></i>
+			</a>
+			<a href="" class="fixed-bar-text">
+				问题反馈
+			</a>
+		</li>
+		<li class="go-top gotop">
+			<a href="" class="fixed-bar-icon">
+				<i class="iconfont icon-jiantou-copy-copy-copy"></i>
+			</a>
+			<a href="javascript:;" class="fixed-bar-text">
+				回到顶部
+			</a>
+		</li>
+	</ul>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="">
+						<img src="images/foot-logo.png" alt="">
+					</a>
+				</div>
+				<div class="col-md-4 about">
+					<span>
+						<a href="">关于我们</a>
+					</span>
+					|
+					<span>
+						<a href="" target="_blank">加入我们</a>
+					</span>
+					|
+					<span>
+						<a href="" target="_blank">合作申请</a>
+					</span>
+					|
+					<span>
+						<a href="">意见反馈</a>
+					</span>
+					|
+					<span>
+						<a href="">用户协议</a>
+					</span>
+					<br>				
+					<a class="text-sm con prm" href="" target="_blank">浙ICP备13006852号-3</a>
+					<a class="text-sm con plm" href="" target="_blank">浙B2-20160872</a>
+				</div>
+				<div class="row">
+					<div class="row-con">
+						<a class="row-tip" href="" >
+						<img class="row-img" src="images/filing.png" alt="">
+						<p class="row-p">浙公网安备 33010802003863号</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					关注我们：
+					<a href=""> <i class="iconfont icon-weibo"></i>
+					</a>
+					<a class="icon-sns"> <i class="iconfont icon-unie655"></i>
+						<div class="sns-popover">
+						<img src="images/wenxin-qrcode.jpg" alt="" width="194px">
+						</div>
+					</a>
+					<a href="">
+						<i class="iconfont icon-qq"></i>
+					</a>
+					<a href="">
+						<i class="iconfont icon-douban1"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="friendlinks">
+		<div class="container">
+			<div class="content">
+				<font>友情链接:</font>
+				<a href="">EduSoho开源网络课堂</a>
+				<span>|</span>
+				<a href="">气球鱼学院</a>
+				<span>|</span>
+				<a href="">360安全网址导航</a>
+				<span>|</span>
+				<a href="">hao123</a>
+				<span>|</span>
+				<a href="">绿色网</a>
+				<span>|</span>	
+				<a href="">站长之家</a>
+				<span>|</span>
+				<a href="">新客网</a>
+				<span>|</span>
+				<a href="">暖石网</a>
+				<span>|</span>
+				<a href="">麦子学院</a>
+				<span>|</span>
+				<a href="">博为峰网校 </a>
+			</div>
+			Powered by
+			<a href="">EduSoho v7.5.15</a>
+			©2014-2018
+			<a class="mlm" href="">好知网</a>
+		</div>
+	</div>
+
+
+	<script src='js/jquery.min.js'></script>
+	<script src='js/bootstrap.min.js'></script>
+	<script>
+	$(window).scroll(function(event) {
+		if($(window).scrollTop()<200){
+				$('.go-top').addClass('gotop');
+			}else{
+				$('.go-top').removeClass('gotop')
+			}
+		});
+	$('.go-top').click(function(event) {
+			$('html,body').stop().animate({'scrollTop':$('html').offset().top}, 1000)
+		});
+	$('.js-user-card').hover(function() {
+		$(this).parent().parent().children('.message').css('display', 'block');
+	}, function() {
+		$(this).parent().parent().children('.message').css('display', 'none');
+	});
+	$('.message').hover(function() {
+		$(this).css('display', 'block');
+	}, function() {
+		$(this).css('display', 'none');
+	});
+	var num = 0;
+			//广告轮播图js
+			setInterval(function(){
+//				alert(1);
+				var height = $('.ad ul li').height()
+				num++;
+				if(num>3){
+					num=0;
+						$('.ad ul').css({'top':-height*num});
+					num=1;
+				}	
+				$('.ad ul').animate({'top':-height*num});
+			},2000)
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

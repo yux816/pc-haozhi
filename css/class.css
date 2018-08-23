@@ -1,0 +1,93 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-07 10:15:14
+* @Last Modified by:   admin
+* @Last Modified time: 2018-07-26 08:50:04
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.marketing {
+    text-align: center;
+}
+a {
+    color: #666;
+    outline: none !important;
+}
+.marketing .autobg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.marketing .imgbg {
+    height: 460px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.marketing .imgbg p {
+    position: absolute;
+    left: -1000px;
+    text-align: left;
+}
+.marketing .marketing-pic4 {
+    background: url("../images/banner_bg.jpg");
+}
+.marketing .container {
+    position: relative;
+}
+.marketing .autobg img {
+    display: inline;
+}
+.marketing .marketing-pic2 {
+    background: url("../images/classmarketing2-bg.jpg");
+}
+.marketing .word {
+    background: #79d05f;
+    color: #fff;
+    padding-bottom: 90px;
+}
+.ptl {
+    padding-top: 20px !important;
+}
+.marketing .word h1 {
+    margin: 0;
+}
+.marketing .word img {
+    margin: auto;
+}
+.marketing .word .more {
+    display: inline-block;
+    padding: 2px 6px;
+    margin: 30px 0;
+    background: #fea700;
+    color: #fff;
+    border-radius: 10px;
+}
+.marketing .word>div {
+    line-height: 25px;
+}
+.marketing .container {
+    position: relative;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 1200px)
+{.marketing .imgbg {
+    height: 380px;}
+}
+@media (max-width: 992px)
+{.marketing .imgbg {
+    height: 300px;}
+}
+@media (max-width: 767px)
+{.marketing .imgbg {
+    height: 250px;}
+}
+@media (max-width: 480px)
+{.marketing .imgbg {
+    height: 200px;}
+}

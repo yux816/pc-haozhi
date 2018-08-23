@@ -1,0 +1,17 @@
+.main .tab-head ul li:nth-of-type(2){
+	border: 1px solid white;
+	border-width: 2px 0px 0px 0px;
+	background-color: transparent;
+}
+.main .tab-head ul li:nth-of-type(4){
+	border: 1px solid #15c288;
+	border-width: 2px 0px 0px 0px;
+	background: white;
+}
+.hot-lable ul li{
+	margin: 15px 13px 0px 0px;
+}
+
+
+
+
